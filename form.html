@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scuba Diving</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="img/navlogo.jpg" rel="icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<header>
+    <nav>
+        <div class="logo">
+            <a href="/admin.html">
+                <div class="navbar-logo">
+                    <img src="img/navlogo.jpg" alt="">
+                </div>
+            </a>
+        </div>
+    </nav>
+</header>
+<br>
+<body>
+
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+            </div> 
+    
+            <div class="form-group">
+                <label for="fatherName">Father Name:</label>
+                <input type="text" id="fatherName" name="fatherName" required />
+            </div>
+            
+            <div class="form-group">
+                <label for="contactNumber">Contact Number:</label>
+                <input type="tel" id="contactNumber" name="contactNumber" required />
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+            </div>
+            
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" required></textarea>
+            </div>
+            
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required />
+            </div>
+    
+            <div class="form-group">
+                <label for="emergency_contact_person">Emergency Contact Person:</label>
+                <input type="text" id="emergency_contact_person" name="emergency_contact_person" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="emergency_contact_number">Emergency Contact Number:</label>
+                <input type="tel" id="emergency_contact_number" name="emergency_contact_number" required>
+            </div>
+            <div class="photo-upload">
+                <div class="logo">
+                  <img src="img/profile.png" alt="Logo">
+                </div>
+                <div class="input">
+                  <input type="file" id="upload" name="upload"/>
+                  <label for="upload">Choose photo</label>
+                </div>
+            </div><br>
+    
+            <div class="form-group">
+                <label for="id1">ID Aadhar (PDF):</label>
+                <input type="file" id="id1" name="id1" accept=".pdf" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="id2">Police clearance (PDF):</label>
+                <input type="file" id="id2" name="id2" accept=".pdf" required>
+            </div>
+            <br>
+            <div style="text-align: center;">
+                <a href="/packages.html" style="display: inline-block; margin: 0 auto; background-color: #4CAF50; border: none;
+                color: white; padding: 10px 24px; text-align: center; text-decoration: none; font-size: 16px; cursor: pointer; border-radius: 5px;">Next</a>
+            </div>
+              
+            <!-- <input type="submit"  value="Next"> -->
+        </form>
+    </div><br>
+    
+</body>
+</html>
